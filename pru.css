@@ -1,12 +1,8 @@
-@import "general.css";
-@import "formularios.css";
-@import "tarjetamas.css";
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
     font-family: roboto;
-    margin:0;
+    margin: 0;
 }
 :root{
     --color-azul:#00669F;
@@ -92,7 +88,6 @@ p{  padding-top: 8px;
     height: 110px;
     margin-left: 35%;
     margin-bottom: 60px;
-    width: 100%;
 }
 .fotoPerfil{
     position: absolute;
@@ -129,12 +124,21 @@ h4{
 
 
 /*pie de pagina*/
+footer{
+    position: relative;
+    top:100px;
+    background-color:var(--color-azul);
+    height: 100px;
+}
 
 h5{ padding-top: 3.5%;
+    padding-left: 30%;
     color:#FFFFFF;
     text-align: center;
     font-size: 20px;
     font-weight: normal;
+    margin: 0;
+    width: 60%;
 }
 .derechos{
     position: absolute;
@@ -150,4 +154,93 @@ h5{ padding-top: 3.5%;
     left: 80%;
     width: 20%;
     margin:0px;    
+}
+
+
+
+/*pagina ingresar*/
+
+.formulario{
+    position: relative;
+    top: 30px;
+    left:25%;
+    background-color: rgb(127, 255, 212, 0.1);
+    width: 50%;
+    margin: 0;
+    border-radius: 12px;
+}
+h2.pagina{
+    text-transform: capitalize;
+    padding: 5% 10% 5% 10%;
+    margin: 0;
+    text-align: left;
+}
+.caja1{
+    width: 80%;
+    padding: 1% 10% 1% 10%;
+}
+
+#cuadro{
+    width: 95%;
+    height: 30px;
+    padding-left: 3%;
+}
+
+
+/*input[type=submit]*/ 
+#entrar{
+    background-color:var(--color-agua);
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .caja2{
+    width: 80%;
+    padding: 5% 10% 10% 10%;
+    text-align: center;
+}
+.caja3{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/*pagina de registrar*/
+#cuadro2{
+    width: 99%;
+    height: 36px;
+    padding-left: 3%;
+}
+
+#resetear2{
+    background-color: #888888;    ;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 48%;
+    float:left;
+}
+#entrar2{
+    background-color:var(--color-agua);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 48%;
+    float:right;
+  }
+
+/*contacto*/
+.caja1 textarea{
+    height: 150px;
+    width: 98%;
 }
