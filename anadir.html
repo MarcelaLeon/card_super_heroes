@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <script src="https://kit.fontawesome.com/4d8d99ca21.js" crossorigin="anonymous"></script>
+
+    <link href="css/style.css" rel="StyleSheet">
+    <title>Añadir super heroe</title>
+</head>
+<body>
+    <header>
+        <h3>20% de descuento en todos los productos!</h3>
+        <div class="nombre">
+            <a href="index.html"><img class="logo" src="img/logo 1.png"></a>
+            <h1>Card Super Heroes</h1>
+        </div>
+    </header>
+    <nav>
+        <a class="menu" href="contacto.html">Contacto</a>
+        <a class="menu" href="registrar.html">Registrarme</a>
+        <a class="menu" href="ingresar.html">Ingresar</a>
+    </nav>
+
+<div>
+    <div class="formulario2">
+        <h1>Añadí tu super!</h1>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <div class="subir">
+            <div class="columna">
+                <div class="caja4">
+                    <laber for="nombre">*Nombre</laber>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="caja4">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha">
+                </div>
+                <div class="caja4">
+                    <textarea placeholder="Descripcion"></textarea>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="caja4">
+                    <laber for="especie">*Especie</laber>
+                    <select name="especie" id="especie">
+                        <option disabled selected>Especie</option>
+                        <option value="humana">Human</option>
+                        <option value="desconocida">UnKnown</option>
+                        <option value="dios">God</option>
+                    </select>
+                </div>
+                <div class="caja4">
+                    <laber for="espece">Agregar Foto</laber>
+                    <input type="file">
+                </div>
+                <div class="caja4">
+                    <laber for="especie">Poderes</laber>
+                    <div><input type="checkbox" name="poderes" value="Volar">Volar</div>
+                    <div><input type="checkbox" name="poderes" value="SuperInteligencia">SuperInteligencia </div>
+                    <div><input type="checkbox" name="poderes"  value="Vista de rayo láser">Vista de rayo láser</div>
+                    <div><input type="checkbox" name="poderes"  value="Billetera gorda">Billetera gorda</div>
+                </div>
+                <hr>
+                <div class="caja4">
+                    <laber for="especie">Tipo de personaje</laber>
+                    <div><input type="radio" name="personaje" value="heroe">Héroe / Heroina</div>
+                    <div><input type="radio" name="personaje" value="villano">Villano / Villana</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="caja3">
+            <input type="submit" value="Añadir" id="entrar3">
+        </div>
+
+    </div> 
+
+</div>
+
+<footer class="mas">
+    <h5 class="mas">Todos los derechos reservados a FRONT END 1</h5>
+</footer>
+    
+    
+</body>
+</html>

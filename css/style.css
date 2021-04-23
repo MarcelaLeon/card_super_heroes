@@ -6,7 +6,7 @@
 
 body{
     font-family: roboto;
-    margin:0;
+    overflow-x: hidden;
 }
 :root{
     --color-azul:#00669F;
@@ -25,14 +25,9 @@ body{
     height: 100px;
     
 }
-h1{
-    display: inline;
-    font-size: 50px;
-    color: #FFFFFF; 
-    padding-left: 30px;
-}
+
 nav{
-    background-color: black;
+    background-color: #001D2D;
     text-align: right;
     padding: 12px;
     
