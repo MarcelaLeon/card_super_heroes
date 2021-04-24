@@ -9,7 +9,7 @@ header.mas{
 }
 
 div.mas{
-    
+    height: 70%;
     background-image: url("../img/bg-harleyq.png");
     background-size: cover;
 }

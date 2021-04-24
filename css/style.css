@@ -6,7 +6,6 @@
 
 body{
     font-family: roboto;
-    overflow-x: hidden;
 }
 :root{
     --color-azul:#00669F;
@@ -15,16 +14,6 @@ body{
 
 /*Encabezado*/
 
-.logo{
-    display: inline;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-.nombre{
-    background: var(--color-azul);
-    height: 100px;
-    
-}
 
 nav{
     background-color: #001D2D;
@@ -49,6 +38,7 @@ a.menu{
     padding-top: 60px;
     display: inline-block;
     width:43%;
+    padding-bottom: 60px;
 }
 .fondo{
     position: relative;
@@ -84,11 +74,15 @@ p{  padding-top: 8px;
     text-align: justify;
 }
 .boton{
-    height: 110px;
-    margin-left: 35%;
-    margin-bottom: 60px;
+    display:flex;
+    justify-content: center;
     width: 100%;
+    padding-bottom: 60px;
 }
+
+
+
+
 .fotoPerfil{
     position: absolute;
     top:240px;
@@ -119,7 +113,9 @@ h4{
     font-size: 50px;
     color:#FFFFFF;
     padding:10px 20px;
-
+}
+.agregar:hover{
+    background-color:#001D2D;
 }
 
 
