@@ -1,11 +1,12 @@
 /*
 */
 
-header.mas{
+/*header.mas{
     height: 20vh;
-}
+}*/
 .mas h1{
     display: block;
+    padding: 20px;
 }
 
 div.mas{
@@ -14,16 +15,16 @@ div.mas{
     background-size: cover;
 }
 
-footer.mas{
+/*footer.mas{
     height: 10vh;
-}
+}*/
 
 h5.mas{
     color:#FFFFFF;
     text-align: center;
     font-size: 19px;
     font-weight: normal;
-    padding-top: 1%;
+    padding-top: 4%;
     margin: 0;
     text-align: center;
     padding-left: 0;

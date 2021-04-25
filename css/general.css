@@ -3,8 +3,7 @@ box-sizing: border-box;}
 
 header{
     background-color:var(--color-azul);
-
-    height:22vh;
+    /*height:22vh;*/
 }
 h3{
     font-size: 20px;
@@ -36,8 +35,8 @@ h1{
 footer{
     position: relative;
     background-color:var(--color-azul);
-    /*height: 100px;*/
-    height:15vh;
+    height: 100px;
+    /*height:15vh;*/
 }
 
 
